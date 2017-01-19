@@ -1,0 +1,203 @@
+@import "bootstrap";
+
+$nav-height: 5em;
+$dark-granite: #4d4d4d;
+$some-grey: #efefef;
+$white-ferrari: white;
+$black-ferrari: black;
+$full-width: 100%;
+$disable-style: none;
+$roboto-condensed: 'Titillium Web', sans-serif;
+
+body{
+  margin: 0;
+  // background-color: $dark-granite;
+}
+
+.container{
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+.row{
+  &.row-odd{
+    // background-color: $some-grey;
+  }
+}
+
+// .row{
+//   display: table;
+//   &.row-project-left{
+//     margin: 2em 4em 2em 4em;
+//     box-shadow: 0 0 20px 1px grey;
+//     .col-image-left{
+//       padding-left: 0;
+//       height: inherit;
+//     }
+//     .col-description-right{
+//       overflow: hidden;
+//       padding-top: 2em;
+//       padding-bottom: 2em;
+//       padding-left: 0;
+//       display: table-cell;
+//       vertical-align: middle;
+//       .project-description{
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+//
+// .col-description-right{
+//   display: block;
+//   overflow: hidden;
+//   padding-top: 2em;
+//   padding-bottom: 2em;
+//   padding-left: 0;
+//   .project-description{
+//     text-align: center;
+//   }
+// }
+
+
+.background{
+  background-size: 100%;
+  height: 600px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0) ), url("/images/kyoto.jpg");
+  background-repeat: no-repeat;
+}
+.nav{
+  overflow: hidden;
+  text-align: right;
+  width: $full-width;
+  height: $nav-height;
+  line-height: $nav-height;
+  display: block;
+  ul{
+    list-style-type: $disable-style;
+    display: block;
+    overflow: hidden;
+    height: inherit;
+    line-height: inherit;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    li{
+      display:inline-block;
+      overflow: hidden;
+      padding-right: 1em;
+      font-size: 2em;
+    }
+    a{
+      color: $white-ferrari;
+      font-weight: bold;
+      text-decoration: $disable-style;
+      font-family: $roboto-condensed;
+    }
+  }
+}
+
+
+.name{
+  color: $white-ferrari;
+  text-align: center;
+  font-family: $roboto-condensed;
+  display: block;
+  font-size: 110px;
+  font-weight: 700;
+  h1{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+  }
+}
+
+#about{
+}
+
+.blurb{
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-family: $roboto-condensed;
+  color: $black-ferrari;
+  font-size: 2em;
+  padding: 0 2em 2em 2em;
+  h1{
+    font-weight: 700;
+    font-size: 50px;
+  }
+}
+
+#resume{
+  text-align: center;
+  font-family: $roboto-condensed;
+  img{
+    height: 35%;
+    width: 35%;
+  }
+}
+
+#projects{
+  h1{
+    font-size: 50px;
+    text-family: $roboto-condensed;
+    text-align: center;
+    padding-top: 1em;
+  }
+}
+
+.project{
+  // box-shadow: 0 0 20px 1px #888;
+  font-family: $roboto-condensed;
+  margin-bottom: 2em;
+  padding-top: 2em;
+  img{
+    box-shadow: 0 0 20px 1px #888;
+  }
+}
+
+.project-description{
+  text-align: center;
+  padding: 1em 2em 2em 2em;
+  h2{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 20px;
+    padding: 5px 2em 5px 2em;
+  }
+  a{
+    text-decoration: underline;
+    color: black;
+  }
+}
+
+#contact{
+  font-family: $roboto-condensed;
+  background-color: $some-grey;
+  h1{
+    padding-top: 0.5em;
+    text-align: center;
+  }
+}
+.contact-text{
+  text-align: center;
+}
+
+.text-right{
+  width: 50%;
+  img{
+    float: right;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.text-left{
+  img{
+    height: 50px;
+    width: 50px;
+  }
+}

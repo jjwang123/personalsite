@@ -8,6 +8,6 @@
     "smooth-scroll": "https://github.com/kswedberg/jquery-smooth-scroll",
     "textillate": "^0.4.0",
     "animate.css": "^3.5.2",
-    "typed.js": "https://github.com/mattboldt/typed.js/"
+    "typed.js": "^1.1.4"
   }
 }

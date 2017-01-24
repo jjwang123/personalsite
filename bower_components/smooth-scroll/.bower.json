@@ -1,0 +1,10 @@
+{
+  "name": "smooth-scroll",
+  "_cacheHeaders": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "main": "index",
+  "_source": "https://github.com/kswedberg/jquery-smooth-scroll",
+  "_target": "*",
+  "_originalSource": "https://github.com/kswedberg/jquery-smooth-scroll"
+}

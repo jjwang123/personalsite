@@ -6,6 +6,16 @@ module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
   });
+  app.import('bower_components/jquery-ui/jquery-ui.js');
+  app.import('bower_components/typed.js/js/typed.js');
+  app.import('bower_components/letteringjs/jquery.lettering.js');
+  app.import('bower_components/animate.css/animate.css');
+  app.import('bower_components/animate.css/animate.min.css');
+  // app.import('bower_components/textillate/assets/animate.css');
+  // app.import('bower_components/textillate/assets/jquery.lettering.js');
+  // app.import('bower_components/textillate/assets/jquery.fittext.js');
+  // app.import('bower_components/textillate/assets/style.css');
+  app.import('bower_components/textillate/jquery.textillate.js');
 
   // Use `app.import` to add additional libraries to the generated
   // output files.

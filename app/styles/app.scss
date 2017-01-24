@@ -15,7 +15,6 @@ body{
 }
 
 .container{
-  margin: 0px 0px 0px 0px;
   width: 100%;
 }
 
@@ -165,7 +164,7 @@ body{
     font-weight: bold;
   }
   p{
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 2em 5px 2em;
   }
   a{
@@ -200,4 +199,9 @@ body{
     height: 50px;
     width: 50px;
   }
+}
+
+.droptext{
+  visibility: hidden;
+  padding-left: 0;
 }

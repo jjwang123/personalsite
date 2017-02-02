@@ -16,6 +16,7 @@ module.exports = function(defaults) {
   // app.import('bower_components/textillate/assets/jquery.fittext.js');
   // app.import('bower_components/textillate/assets/style.css');
   app.import('bower_components/textillate/jquery.textillate.js');
+  app.import('bower_components/slick-carousel/slick/slick.min.js');
 
   // Use `app.import` to add additional libraries to the generated
   // output files.

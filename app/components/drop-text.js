@@ -8,7 +8,6 @@ export default Ember.Component.extend({
       initialDelay: 0,
       in: { effect: 'fadeInDown', sync: true },
       out: { effect: 'fadeOutDown', sync: true },
-      autoStart: true,
       loop: true
     });
   }

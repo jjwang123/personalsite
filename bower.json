@@ -8,6 +8,7 @@
     "smooth-scroll": "https://github.com/kswedberg/jquery-smooth-scroll",
     "textillate": "^0.4.0",
     "animate.css": "^3.5.2",
-    "typed.js": "^1.1.4"
+    "typed.js": "^1.1.4",
+    "slick-carousel": "^1.6.0"
   }
 }

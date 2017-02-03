@@ -17,6 +17,30 @@ body{
 .container{
   width: 100%;
 }
+.center{
+  overflow: hidden;
+  text-align: center;
+}
+.project-buttons{
+  width: 100%;
+  overflow:hidden;
+  text-align: center;
+}
+
+.button{
+	font-size: 1.25em;
+	width: 150px;
+	border: 2px solid #000;
+	display: inline-block;
+	margin: 1% 1% 1% 1%;
+  transition:.5s;
+}
+
+.button:hover{
+	cursor: pointer;
+	background-color: #5F9EA0;
+	border: 2px solid white;
+}
 
 .row{
   &.row-odd{
@@ -172,7 +196,7 @@ h4{
     padding: 5px 2em 5px 2em;
   }
   a{
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
   }
 }

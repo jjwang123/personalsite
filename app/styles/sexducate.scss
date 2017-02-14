@@ -1,0 +1,38 @@
+// .text-container{
+//   display: block;
+//   margin-left: 10%;
+//   margin-right: 10%;
+// }
+.text-container{
+  font-size: 21px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.img-title{
+  font-size:14px;
+  color: rgba(0,0,0,.6);
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.starting{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 1em;
+}
+.paraBlock{
+  display: inline-block;
+  font-size : 25px;
+}
+ul#backarrow{
+  list-style: none;
+  padding-top: 1em;
+}
+
+.single-img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

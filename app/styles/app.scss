@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "sexducate.scss";
 
 $nav-height: 5em;
 $dark-granite: #4d4d4d;
@@ -124,7 +125,6 @@ h4{
   }
 }
 
-
 .name{
   color: $white-ferrari;
   text-align: center;
@@ -209,6 +209,7 @@ h4{
     text-align: center;
   }
 }
+
 .contact-text{
   text-align: center;
 }

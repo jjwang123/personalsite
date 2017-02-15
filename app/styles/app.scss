@@ -34,11 +34,12 @@ body{
 }
 
 .button{
-	font-size: 1.25em;
-	width: 150px;
+	font-size: 18px;
+	width: 125px;
 	border: 2px solid #000;
 	display: inline-block;
 	margin: 1% 1% 1% 1%;
+  padding: 10px 15px 10px 15px;
   transition:.5s;
 }
 
@@ -193,6 +194,7 @@ h4{
     box-shadow: 0 0 20px 1px #888;
   }
 }
+
 
 .project-description{
   text-align: center;
